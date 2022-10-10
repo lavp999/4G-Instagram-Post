@@ -1,0 +1,37 @@
+* {
+    border: 1px solid black;
+
+}
+
+.contenedor{
+    font-family: 'Roboto', sans-serif;
+    width:400px;
+    margin: 0 auto;    
+}
+
+.titulo{
+    color: red;
+    display: flex;
+}
+
+.imagen{
+    width: 400px;
+    height: 500px;
+}
+
+.opciones{
+    color: red;
+    padding: 10px 5px;
+}
+
+.titulo2{
+    color: red;
+    padding: 5px 5px 0px 5px;
+}
+
+.entradilla{
+    color: blue;
+    padding: 0px 5px;
+    margin: 4px;
+    border: 2px solid coral;
+}
