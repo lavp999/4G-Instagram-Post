@@ -14,6 +14,23 @@
     display: flex;
 }
 
+.titulo-icono{
+    color: blue;
+    align-self: center;
+}
+.titulo-nombe{
+    color: black;
+    font-size: smaller;
+    margin: 0px;
+    padding: 0px;
+}
+.titulo-menu{
+    display: flex;
+    margin-left: auto;
+    align-self: center;
+}
+
+
 .imagen{
     width: 400px;
     height: 500px;
