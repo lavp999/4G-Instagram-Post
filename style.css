@@ -1,13 +1,17 @@
-* {
+/* * {
     border: 1px solid black;
 
-}
+}*/
 
 .contenedor{
     font-family: 'Roboto', sans-serif;
     width:400px;
     margin: 0 auto;    
 }
+
+/* ----------------------------------------------------------- */
+/* TITULO encima de la imagen                                */
+/* ----------------------------------------------------------- */
 
 .titulo{
     color: red;
@@ -17,6 +21,7 @@
 .titulo-icono{
     color: blue;
     align-self: center;
+    margin: 10px;
 }
 .titulo-nombe{
     color: black;
@@ -31,24 +36,45 @@
 }
 
 
+/* ----------------------------------------------------------- */
+/* IMAGEN                                                      */
+/* ----------------------------------------------------------- */
+
 .imagen{
     width: 400px;
-    height: 500px;
+    height: 400px;
 }
+
+/* ----------------------------------------------------------- */
+/* OPCIONES debajo de la imagen                                */
+/* ----------------------------------------------------------- */
 
 .opciones{
-    color: red;
-    padding: 10px 5px;
+    display: flex;
+    /* padding: 10px 5px;*/
 }
 
+.opciones-icono{
+    float: left;
+    margin: 2px;
+}
+.opciones-menu{
+    float: right;
+    margin-left: auto;
+}
+
+
+/* ----------------------------------------------------------- */
+/* TITULO del texto principal                                  */
+/* ----------------------------------------------------------- */
+
 .titulo2{
-    color: red;
     padding: 5px 5px 0px 5px;
+    font-size: small;
 }
 
 .entradilla{
-    color: blue;
+    font-size: small;
     padding: 0px 5px;
     margin: 4px;
-    border: 2px solid coral;
 }
